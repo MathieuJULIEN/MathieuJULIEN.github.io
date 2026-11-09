@@ -5,7 +5,7 @@ body {
 
 .header {
     display: flex;
-    background-color: #389;
+    background-color: #278;
     color: #fff;
     text-align: center;
 }
@@ -18,7 +18,7 @@ body {
     text-decoration: none;
     border-radius: 25px;
     border: none;
-    background-color: #278;
+    background-color: #167;
     color: #fff;
     padding: 10px;
 }
@@ -40,6 +40,38 @@ h1 {
 }
 
 .home {
-    background-color: #389;
+    background-color: #278;
     border: none;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 1%;
+    width: 98%;
+    background-color: #167;
+    text-align: center;
+}
+
+.title-footer {
+    margin-left: 2%;
+}
+
+.all-buton-footer {
+    margin-left: auto;
+    margin-top: 0.5%;
+    padding: 0.5rem;
+}
+
+.buton-footer {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background-color: #056;
+    padding: 10px;
+}
+
+.lien-email {
+    color: #fff;
 }
